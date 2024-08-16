@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	*:hover { outline: 5px solid rgb(255,0,0); }
+  	
+ 
+	section, header, hgroup, footer, nav, article, aside, figure, figcaption, aside,
+	.section, .header, .hgroup, .footer, .nav, .article, .aside, .figure, .figcaption, .aside {
+  		border: 1px solid rgb(255,255,255);
+  		background-color: rgba(153,153,153,.25);
+  		display: block;
+  		padding: 5px;
+  		margin: 5px;
+  	}
+  	
+  	section, aside,
+  	.section, .aside {
+  		float: left;
+  	}
+  	
+  	header, footer,
+  	.header, .footer {
+  		clear: both;
+  	}
+  	
+  	#pagecontent {
+  		margin: 0 auto;
+  		max-width: 1045px;
+  		min-width: 480px;
+  		width: 100%;
+  	}
+  	
+  	#pageheader, #pagefooter { 
+  		max-width: 1020px;
+  		min-width: 480px;
+  		width: 100%;
+  	}
+  	#sectioncontent1 {
+  		max-width: 600px;
+  		min-width: 400px;
+  		width: 100%;
+
+  	}
+  	
+  	#asidecontent1 {
+  		max-width: 400px;
+  		width: 100%;
+  	}
+    #globalnav {
+        display: flex;
+        justify-content: center; 
+        gap: 10px; 
+    }
+</style>
+</head>
+<body>
+    <div id="pagecontent" class="pagecontent">
+
+        <header id="pageheader" class="pageheader">
+    
+            <hgroup id="pagehgroup" class="pagehgroup">
+                <h1 class="sitename"><a href="/" rel="home" title="Home">HTML5 Structure</a></h1>
+                <h2 class="subtitle">
+                    <img style="width:300pt;height:100pt" alt="logo BIT"
+                    src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/BIT_logo.png" />
+                </h2>
+            </hgroup>
+    
+            <nav id="globalnav" class="nav globalnav">
+                <a name="CTDH">
+                    <a href=https://bit.ueh.edu.vn/bit/dao-tao/dai-hoc#CTDH><p style="font-weight: bold; font-size: big; color:blue">
+                    Chương trình đại học</p></a>
+                <a name="CTLT">
+                    <a href=https://bit.ueh.edu.vn/bit/dao-tao/dai-hoc-lt#CTLT><p style="font-weight: bold; font-size: big; color:blue">
+                    Chương trình liên thông</p></a>
+                <a name="CTSDH">
+                    <a href=https://bit.ueh.edu.vn/bit/dao-tao/sau-dai-hoc#CTSDH><p style="font-weight: bold; font-size: big; color:blue">
+                    Chương trình sau đại học</p></a>
+                <a name="CTQH">
+                    <a href=https://bit.ueh.edu.vn/bit/dao-tao/dai-hoc-nn#CTQT><p style="font-weight: bold; font-size: big; color:blue">
+                    Chương trình quốc tế</p></a>
+            </nav>
+    
+        </header>
+    
+        <section id="sectioncontent1" class="section sectioncontent">
+            <header id="sectionheader1" class="header sectionheader">
+                <h2>Chương trình Đại học</h2>
+            </header>
+    
+            <article id="articlecontent1" class="article articlecontent">
+                <header id="articleheader1" class="header articleheader">
+                    <a name="ERP">
+                        <a href=https://bit.ueh.edu.vn/chuyen-nganh-he-thong-hoach-dinh-nguon-luc-doanh-nghiep-erp#ERP>
+                    <h3>Hệ thống hoạch định nguồn lực doanh nghiệp (ERP)</h3>
+                    </a>
+                </header>
+                <p style="text-align: justify">Chương trình đào tạo Hệ thống hoạch định nguồn lực doanh nghiệp thuộc ngành Hệ thống thông tin quản lý tại UEH được xây dựng theo tiêu chuẩn tiên tiến hướng đến mục tiêu đào tạo nguồn nhân lực chất lượng cao đạt yêu cầu trong nước và quốc tế, có đủ kiến thức và kỹ năng cần thiết để tham gia tư vấn lựa chọn giải pháp triển khai cũng như vận hành hệ thống thông tin cũng như hệ thống hoạch định nguồn lực cho các tổ chức và doanh nghiệp. Bên cạnh đó, sinh viên luôn được trau dồi kiến thức chuyên môn, nâng cao tay nghề, đồng thời được liên kết chặt chẽ với nhiều tổ chức, doanh nghiệp liên quan.</p>
+                <figure id="figure1" class="figure">
+                    <img style="width:400pt;height:100pt" ;  alt="logo ERP"
+                    src="https://bit.ueh.edu.vn/wp-content/uploads/2018/05/ERP-770x385.jpg" />
+                    <p style="text-align: center; font-style: italic;">Logo ERP</p>
+                    <figcaption class="figcaption">Figure Caption</figcaption>
+                </figure>
+                <footer id="articlefooter1" class="footer articlefooter">
+                    <p>Article footer</p>
+                </footer>
+            </article>
+    
+            <article>
+                <header id="articleheader2" class="header articleheader">
+                    <h3>Article Header</h3>
+                </header>
+                <p>Article</p>
+                <figure id="figure2" class="figure">
+                    <p>Figure</p>
+                    <figcaption class="figcaption">Figure Caption</figcaption>
+                </figure>
+                <footer id="articlefooter2" class="footer articlefooter">
+                    <p>Article footer</p>
+                </footer>
+            </article>
+    
+            <footer id="sectionfooter1" class="footer sectionfooter">
+                <p>Section Footer</p>
+            </footer>
+        </section>
+    
+        <aside id="asidecontent1" class="aside asidecontent">
+            <header class="header sectionheader">
+                <h2>Liên Kết</h2>
+            </header>
+            <a name="MIS">
+                <a href=https://bit.ueh.edu.vn/chuyen-nganh-he-thong-thong-tin-kinh-doanh#MIS>
+                    <p>Hệ thống thông tin kinh doanh</p>
+                </a>
+            <article>
+                <header class="header articleheader">
+                    <img style="width:270pt;height:100pt" ;  alt="logo MIS"
+                    src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/mis-770x385.jpg" />
+                </header>
+                <p style="text-align: justify">Chương trình Hệ thống thông tin kinh doanh thuộc ngành Hệ thống thông tin quản lý. Trong thời đại Công nghiệp 4.0, công cuộc chuyển đổi số gần như đã trở thành một trong những mục tiêu đứng đầu của các tổ chức doanh nghiệp trong và ngoài nước để mong muốn khẳng định và phát triển chính họ. Từ đó, khoa Công nghệ thông tin kinh doanh với kinh nghiệm đã đào tạo chuyên ngành này trong thời gian dài hơn 15 năm cùng với sự thay đổi phù hợp thời đại và tương đương với các chương trình đào tạo của các trường đại học tiên tiến trên thế giới đã tạo ra lợi thế cạnh tranh rất lớn cho các bạn sinh viên tốt nghiệp trong thị trường lao động hiện nay.</p>
+                <footer id="articlefooter2" class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </footer>
+            </article>
+    
+            <article>
+                <header class="header articleheader">
+                    <h3>Aside Article Header</h3>
+                </header>
+                <p>Aside Article Copy</p>
+                <footer class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </footer>
+            </article>
+    
+            <article>
+                <header class="header articleheader">
+                    <h3>Aside Article Header</h3>
+                </header>
+                <p>Aside Article Copy</p>
+                <footer class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </footer>
+            </article>
+    
+            <footer class="header articlefooter">
+                <p>Aside footer</p>
+            </footer>
+        </aside>
+    
+        <footer id="pagefooter" class="footer pagefooter">
+            <p>Page Footer</p>
+        </footer>
+    </div>
+    </body>
+</html>
